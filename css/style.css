@@ -10,11 +10,14 @@
     padding: 30px;
     background-color: #273135;
     width: 260px;
-    color: white;
     height: 1000px;
+    color: white;
+    font-family: "Open Sans";
+    position: fixed;
 }
 .menu h2{
     line-height: 70px;
+    overflow: hidden;
 }
 li{
     list-style: none;
@@ -23,12 +26,31 @@ a{
     text-decoration: none;
     color: white;
 }
-.menu li{
-    font-size: 16px;
-    line-height: 30px;
-}
-.menu ul{
-    font-size: 13px;
-    opacity: .5;
+.menu-bar ul{
+    font-size: 12px;
+    opacity: .3;
     line-height: 50px;
+}
+.menu-bar .fa fa-flask{
+    font-size: 20px;
+}
+.title-icon{
+    font-size: 30px;
+    float: left;
+}
+.title{
+    position: relative;
+    margin-left: 40px;
+    font-size: 30px;
+}
+.mini-content{
+    font-size: 15px;
+    line-height: 40px;
+    word-spacing: 50px;
+}
+.icons{
+    float: left;
+}
+.mini-content p{
+    margin-left: 30px;
 }
