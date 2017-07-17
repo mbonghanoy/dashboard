@@ -5,12 +5,13 @@
 .left-container{
     width: 200px;
     margin: 0 auto;
+    float: left;
 }
 .menu{
     padding: 30px;
     background-color: #273135;
-    width: 260px;
-    height: 1000px;
+    width: 200px;
+    height: 100%;
     color: white;
     font-family: "Open Sans";
     position: fixed;
@@ -25,6 +26,9 @@ li{
 a{
     text-decoration: none;
     color: white;
+}
+.menu-bar{
+    float: left;
 }
 .menu-bar ul{
     font-size: 12px;
@@ -53,4 +57,99 @@ a{
 }
 .mini-content p{
     margin-left: 30px;
+}
+.header-content{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #E0E0E0;
+}
+.right-container{
+    width: 100%;
+    height: 100%;
+}
+.drop-box{
+    margin-top: 20px;
+    margin-left: 270px;
+    width: 948px;
+    height: 50px;
+    border: 2px solid #007EE5;
+    padding: 15px;
+    overflow: hidden;
+    color: #007EE5
+}
+.main-content{
+    margin: 0 auto;
+    float: left;
+}
+.icon-drop-box{
+    margin-right: 5px;
+    float: left;
+}
+.drop-box-content{
+    opacity: .5px;
+    font-size: 12px;
+}
+.clock{
+    position: relative;
+    left: 1200px;
+    color: #007EE5;
+    overflow: hidden;
+    float: left;
+    top: 15px;
+}
+.right-container img{
+    position: relative;
+    top: 10px;
+    left: 1210px;
+    width: 30px;
+    height: 30px;
+    float: left;
+    overflow: hidden;
+}
+.card{
+    margin-top: 10px;
+    float: left;
+    width: 1000px;
+    height: 50px;
+    padding: 20px;
+    margin-right: 15px;
+    color: white;
+}
+.card-title h4{
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.card-content{
+    margin-top: 2px;
+    font-size: 20px;
+}
+.card.card-4{
+    width: 194px;
+}
+.card:first-child{
+    margin-left: 270px;
+    background-color: #16A085;
+}
+.card:nth-child(2){
+    background-color: #C0392B;
+}
+.card:nth-child(3){
+    background-color: #F39C12;
+}
+.card:last-child{
+    margin-right: 0px;
+    background-color: #379ADC;
+}
+.card-icon{
+    position: relative;
+    top: 10px;
+    float: right;
+    font-size: 20px;
+}
+.mini-content li{
+    width: 100%;
+}
+.mini-content li:hover{
+    background-color: black;
 }
