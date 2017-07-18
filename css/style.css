@@ -8,12 +8,12 @@
     float: left;
 }
 .menu{
-    padding: 30px;
     background-color: #273135;
     width: 200px;
     height: 100%;
     color: white;
     font-family: "Open Sans";
+    z-index: 1;
     position: fixed;
 }
 .menu h2{
@@ -34,29 +34,34 @@ a{
     font-size: 12px;
     opacity: .3;
     line-height: 50px;
-}
-.menu-bar .fa fa-flask{
-    font-size: 20px;
+    padding-left: 15px;
 }
 .title-icon{
     font-size: 30px;
     float: left;
+    margin-left: 20px;
 }
 .title{
     position: relative;
-    margin-left: 40px;
+    margin-left: 60px;
     font-size: 30px;
+    margin-top: 10px;
 }
 .mini-content{
-    font-size: 15px;
+    font-size: 12px;
     line-height: 40px;
     word-spacing: 50px;
+}
+.mini-content li{
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 15px;
 }
 .icons{
     float: left;
 }
 .mini-content p{
-    margin-left: 30px;
+    margin-left: 20px;
 }
 .header-content{
     width: 100%;
@@ -64,18 +69,17 @@ a{
     border-bottom: 1px solid #E0E0E0;
 }
 .right-container{
-    width: 100%;
+    width: 1000px;
     height: 100%;
 }
 .drop-box{
     margin-top: 20px;
-    margin-left: 270px;
-    width: 948px;
+    width: 1050px;
     height: 50px;
     border: 2px solid #007EE5;
     padding: 15px;
-    overflow: hidden;
-    color: #007EE5
+    color: #007EE5;
+    margin-left: 200px;
 }
 .main-content{
     margin: 0 auto;
@@ -96,11 +100,12 @@ a{
     overflow: hidden;
     float: left;
     top: 15px;
+
 }
 .right-container img{
     position: relative;
     top: 10px;
-    left: 1210px;
+    left: 1000px;
     width: 30px;
     height: 30px;
     float: left;
@@ -109,7 +114,6 @@ a{
 .card{
     margin-top: 10px;
     float: left;
-    width: 1000px;
     height: 50px;
     padding: 20px;
     margin-right: 15px;
@@ -125,10 +129,10 @@ a{
     font-size: 20px;
 }
 .card.card-4{
-    width: 194px;
+    width: 220px;
 }
 .card:first-child{
-    margin-left: 270px;
+    margin-left: 200px;
     background-color: #16A085;
 }
 .card:nth-child(2){
@@ -147,9 +151,13 @@ a{
     float: right;
     font-size: 20px;
 }
-.mini-content li{
-    width: 100%;
-}
 .mini-content li:hover{
     background-color: black;
+}
+.main-content{
+    margin-left: 15px;
+}
+.content-margin{
+    margin-left: 15px;
+    width: 1400px;
 }
