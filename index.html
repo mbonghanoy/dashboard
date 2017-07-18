@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="https://use.fontawesome.com/ac4bc533d3.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:600|Roboto:500" rel="stylesheet">
 </head>
 <body>
     <div class="menu">
@@ -20,7 +22,7 @@
                 <ul class="mini-title">APPLICATION</ul>
                 <div class="mini-content">
                     <li>
-                        <a href="">
+                        <a href="index.html">
                             <div class="icons">
                                 <i class="fa fa-tachometer" aria-hidden="true"></i>
                             </div>
@@ -28,7 +30,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="database.html">
                             <div class="icons">
                                 <i class="fa fa-database" aria-hidden="true"></i>
                             </div>
@@ -88,8 +90,8 @@
                 <div class="icon-drop-box">
                     <i class="fa fa-dropbox" aria-hidden="true"></i>
                 </div>
-                <p>Dropbox</p>
-                <p class="drop-box-content">Get up to 16 GB of free space by inviting your friends to Dropbox!<a href="">click here</a></p>
+                <p class="drop-box-text">Dropbox</p>
+                <p class="drop-box-content">Get up to 16 GB of free space by inviting your friends to Dropbox! <a href="">click here</a></p>
             </div>
         </div>
     </div>
@@ -103,7 +105,7 @@
                     <div class="card-icon">
                         <i class="fa fa-users" aria-hidden="true"></i>
                     </div>
-                    <div class="card-content">1,234</div>
+                    <div class="card-content">1, 234</div>
                 </div>
             </div>
             <div class="card card-4">
@@ -150,7 +152,7 @@
                 <tr>
                     <th colspan="5" class="server-name">SERVERS</th>
                 </tr>
-                <tr>
+                <tr class="table-title">
                     <td>HOSTNAME</td>
                     <td>ALIAS</td>
                     <td colspan="3">COMMIT</td>
@@ -160,30 +162,34 @@
                     <td>Windows Server 10</td>
                     <td><span>92f97e5 </span>(master)</td>
                     <td>15 minutes ago</td>
-                    <td>Finished</td>
+                    <td class="finished"><i class="fa fa-check" aria-hidden="true"></i> Finished</td>
                 </tr>
                 <tr>
                     <td><span>10.10.1.25</span> (RVLV-DEVSRVR)</td>
                     <td>Ubuntu Server 14.04.03 LTS</td>
                     <td><span>e45a232 </span>(master)</td>
                     <td>25 miutes ago</td>
-                    <td>Finished</td>
+                    <td class="finished"><i class="fa fa-check" aria-hidden="true"></i> Finished</td>
                 </tr>
                  <tr>
                     <td><span>10.10.1.69</span> (RVLV-WEBSRV)</td>
                     <td>Ubuntu Server 14.04.03 LTS</td>
                     <td><span>e45a232 </span>(master)</td>
                     <td>25 miutes ago</td>
-                    <td>Host error</td>
+                    <td class="error"><i class="fa fa-times" aria-hidden="true"></i> Host error</td>
                 </tr>
                 <tr>
                     <td colspan="5">
                         <div class="button">
-                            <div class="button-1"><<</div>
+                            <div class="button-1">
+                                <i class="fa fa-angle-double-left" aria-hidden="true"></i>
+                            </div>
                             <div class="button-2">1</div>
                             <div class="button-3">2</div>
                             <div class="button-4">3</div>
-                            <div class="button-5">>></div>
+                            <div class="button-5">
+                                <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                            </div>
                         </div>
                     </td>
                 </tr>
