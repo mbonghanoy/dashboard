@@ -25,7 +25,12 @@ li{
 }
 a{
     text-decoration: none;
+}
+.mini-content a{
     color: white;
+}
+.drop-box a{
+    color: #007EE5;
 }
 .menu-bar{
     float: left;
@@ -48,12 +53,12 @@ a{
     margin-top: 10px;
 }
 .mini-content{
-    font-size: 12px;
+    font-size: 14px;
     line-height: 40px;
     word-spacing: 50px;
 }
 .mini-content li{
-    width: 100%;
+    width: 175px;
     padding-right: 10px;
     padding-left: 15px;
 }
@@ -91,11 +96,12 @@ a{
 }
 .drop-box-content{
     opacity: .5px;
-    font-size: 12px;
+    margin-top: 5px;
+    font-size: 14px;
 }
 .clock{
     position: relative;
-    left: 1200px;
+    left: 1210px;
     color: #007EE5;
     overflow: hidden;
     float: left;
@@ -105,7 +111,7 @@ a{
 .right-container img{
     position: relative;
     top: 10px;
-    left: 1000px;
+    left: 1270px;
     width: 30px;
     height: 30px;
     float: left;
@@ -118,6 +124,7 @@ a{
     padding: 20px;
     margin-right: 15px;
     color: white;
+    margin-bottom: 20px;
 }
 .card-title h4{
     font-weight: 400px;
@@ -156,8 +163,101 @@ a{
 }
 .main-content{
     margin-left: 15px;
+    margin-bottom: 20px;
 }
 .content-margin{
     margin-left: 15px;
     width: 1400px;
+    margin-bottom: 20px;
+}
+.content-table{
+    margin-left: 15px;
+    width: 1085px;
+}
+table{
+    margin-left: 200px;
+    border: 1px solid #D0D0D0;
+    width: 100%;
+    border-collapse: collapse;
+}
+td{
+    border-bottom: 1px solid #D0D0D0;
+}
+td, th{
+    padding: 5px;
+}
+span{
+    color: blue;
+}
+th{
+    text-align: left;
+    line-height: 15px;
+}
+.server{
+    font-size: 13px;
+}
+.server-name{
+    font-size: 14px;
+}
+.button-1{
+    text-align: center;
+    padding: 3px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid blue;
+    margin-left: 450px;
+    font-size: 12px;
+    color: blue;
+    float: left;
+}
+.button-2{
+    text-align: center;
+    padding: 3px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid blue;
+    margin-left: 10px;
+    font-size: 18px;
+    color: blue;
+    float: left;
+}
+.button-3{
+    text-align: center;
+    padding: 3px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid blue;
+    margin-left: 10px;
+    font-size: 18px;
+    color: blue;
+    float: left;
+}
+.button-4{
+    text-align: center;
+    padding: 3px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid blue;
+    margin-left: 10px;
+    font-size: 18px;
+    color: blue;
+    float: left;
+}
+.button-5{
+    text-align: center;
+    padding: 3px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid blue;
+    margin-left: 10px;
+    font-size: 12px;
+    color: blue;
+    float: left;
+}
+.button-1:hover, .button-2:hover, .button-3:hover, .button-4:hover, .button-4:hover{
+    background-color: blue;
+    color: white;
+}
+td:last-child{
+    padding: 6px;
 }
