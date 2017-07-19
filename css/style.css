@@ -75,7 +75,6 @@ a{
 }
 .right-container{
     width: 1000px;
-    height: 100%;
 }
 .drop-box{
     font-family: "Open Sans";
@@ -180,7 +179,6 @@ a{
 .table-servers{
     margin-left: 200px;
     border: 1px solid #D0D0D0;
-    width: 100%;
     border-collapse: collapse;
     font-family: "Open Sans";
     color: #686868;
@@ -311,6 +309,45 @@ a{
     height: 370px;
     border-bottom: 1px solid #E0E0E0;
 }
+.save-cancel{
+    padding: 10px;
+    font-family: "Open Sans";
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.save-cancel-content{
+    margin-left: 205px;
+    float: left;
+    width: 1000px;
+}
+.save-cancel-title{
+    float: left;
+    width: 500px;
+}
+.save{
+    position: relative;
+    width: 45px;
+    font-size: 18px;
+    padding-left: 5px;
+    float: right;
+    left: 83px;
+    background-color: #379ADC;
+    border-radius: 2px;
+    color: white;
+    height: 30px;
+}
+.cancel{
+    position: relative;
+    width: 60px;
+    font-size: 16px;
+    padding: 2px;
+    float: right;
+    left: 86px;
+    top: 3px;
+    font-family: "Open Sans";
+    border-radius: 2px;
+    color: #379ADC;
+}
 .scroll-box{
     font-family: "Open Sans";
     width: 1050px;
@@ -319,6 +356,9 @@ a{
     color: #007EE5;
     margin-left: 200px;
     margin-bottom: 20px;
+}
+p.scroll-box-text{
+    font-weight: bold;
 }
 .scroll-content{
     opacity: .5px;
@@ -354,7 +394,6 @@ a{
     margin-bottom: 10px;
 }
 .foo-bar-content-right .host input[type=text]{
-    backgroun: transparent;
     padding: 5px;
     height: 18px;
     width: 485px;
@@ -378,7 +417,7 @@ a{
     margin-left: 100px;
     position: relative;
     left: 205px;
-    bottom: 50px;
+    bottom: 53px;
 }
 .dropdwn select{
     background: transparent;
@@ -387,87 +426,79 @@ a{
     padding-left: 10px;
     width: 500px;
 }
-.save-cancel{
+.connect-status{
     padding: 10px;
-    font-family: "Roboto";
-    font-size: 12px;
-    margin-bottom: 10px;
-}
-.save-cancel-content{
-    margin-left: 205px;
-    float: left;
-    width: 1000px;
-}
-.save-cancel-title{
-    float: left;
-    width: 500px;
-}
-.save{
-    position: relative;
-    width: 45px;
-    font-size: 18px;
-    padding: 2px;
-    padding-left: 8px;
-    float: right;
-    left: 83px;
-    background-color: blue;
-    border-radius: 2px;
-    color: white;
-}
-.cancel{
-    position: relative;
-    width: 60px;
-    font-size: 16px;
-    padding: 2px;
-    float: right;
-    left: 86px;
-    top: 3px;
-    font-family: "Open Sans";
-    border-radius: 2px;
-    color: blue;
+    padding-top: 15px;
+    border: 1px solid red;
+    font-size: 10px;
+    color: red;
+    width: 477px;
+    font-family: "Roboto Slab";
 }
 .server-instances{
-    height: 100px;
+    width: 100%;
+    float: left;
     border-bottom: 1px solid #E0E0E0;
-    margin-left: 200px;
-    padding: 20px;
 }
 .server-instances-left{
-    width: 300px;
+    width: 140px;
+    margin-left: 215px;
     float: left;
 }
 .server-instances-left .data-icon{
     margin-right: 10px;
 }
 .server-instances-right{
-    width: 300px;
     float: left;
-    margin-left: 100px;
     margin-bottom: 10px;
     font-family: "Open Sans";
-    font-size: 12px;
-    over-flow: hidden;
+    font-size: 14px;
+    margin-left: 255px;
 }
-.connect-status{
-    padding: 10px;
-    border: 1px solid red;
-    font-size: 10px;
-    color: red;
-    height: 20px;
-    width: 477px;
-    font-family: "Roboto Slab";
-}
-.specs{
-    border-bottom: 1px black;
-    font-size: 15px;
+.server-intances-right p{
+    font-family: "Roboto";
 }
 .specs tr:first-child{
     padding: 5px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #E0E0E0;
+}
+.specs-title{
+    font-family: "Roboto Slab";
+    font-size: 12px;
+    color: #606060;
 }
 .server-instances-right table{
     border-collapse: collapse;
 }
 .specs td{
-    padding: 10px;
+    padding-left: 50px;
+    color: #383838;
+}
+.destroy-option{
+    float: left;
+}
+.destroy-option-left{
+    margin-top: 20px;
+    width: 200px;
+    margin-left: 215px;
+    float: left;
+}
+.destroy-option-right{
+    margin-top: 20px;
+    float: left;
+    margin-bottom: 10px;
+    font-family: "Open Sans";
+    font-size: 14px;
+    margin-left: 200px;
+}
+.destroy-button{
+    border: 1px solid red;
+    padding: 5px;
+    color: red;
+    width: 125px;
+    font-size: 12px;
+}
+.destroy-button:hover{
+    background-color: red;
+    color: white;
 }
