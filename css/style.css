@@ -77,7 +77,8 @@ a{
     border-bottom: 1px solid #E0E0E0;
 }
 .right-container{
-    width: 1000px;
+    width: 100%;
+    overflow: hidden;
 }
 .drop-box{
     font-family: "Open Sans";
@@ -104,7 +105,7 @@ a{
 }
 .clock{
     position: relative;
-    left: 1210px;
+    left: 1200px;
     color: #007EE5;
     overflow: hidden;
     float: left;
@@ -114,7 +115,7 @@ a{
 .right-container img{
     position: relative;
     top: 10px;
-    left: 1270px;
+    left: 1250px;
     width: 30px;
     height: 30px;
     float: left;
@@ -332,7 +333,7 @@ a{
 .save{
     position: relative;
     float: right;
-    left: 83px;
+    left: 65px;
     background-color: #379ADC;
     border-radius: 2px;
     color: white;
@@ -343,7 +344,7 @@ a{
     width: 60px;
     padding: 2px;
     float: right;
-    left: 86px;
+    left: 80px;
     top: 3px;
     font-family: "Open Sans";
     border-radius: 2px;
@@ -351,7 +352,7 @@ a{
 }
 .scroll-box{
     font-family: "Open Sans";
-    width: 1050px;
+    width: 1031px;
     border: 2px solid #007EE5;
     padding: 15px;
     color: #007EE5;
