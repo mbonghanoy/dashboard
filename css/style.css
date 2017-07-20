@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0px;
 }
+.main-container{
+    width: 1310px;
+}
 .left-container{
     width: 200px;
     margin: 0 auto;
@@ -336,6 +339,7 @@ a{
     border-radius: 2px;
     color: white;
     height: 30px;
+    padding-top: 2px;
 }
 .cancel{
     position: relative;
@@ -477,10 +481,10 @@ p.scroll-box-text{
 }
 .destroy-option{
     float: left;
+    margin-bottom: 50px;
 }
 .destroy-option-left{
     margin-top: 20px;
-    width: 200px;
     margin-left: 215px;
     float: left;
 }
@@ -490,7 +494,7 @@ p.scroll-box-text{
     margin-bottom: 10px;
     font-family: "Open Sans";
     font-size: 14px;
-    margin-left: 200px;
+    margin-left: 220px;
 }
 .destroy-button{
     border: 1px solid red;
