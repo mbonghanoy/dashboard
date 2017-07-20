@@ -323,6 +323,7 @@ a{
     margin-left: 205px;
     float: left;
     width: 1000px;
+    font-size: 12px;
 }
 .save-cancel-title{
     float: left;
@@ -330,21 +331,16 @@ a{
 }
 .save{
     position: relative;
-    width: 45px;
-    font-size: 18px;
-    padding-left: 5px;
     float: right;
     left: 83px;
     background-color: #379ADC;
     border-radius: 2px;
     color: white;
-    height: 30px;
-    padding-top: 2px;
+    padding: 5px;
 }
 .cancel{
     position: relative;
     width: 60px;
-    font-size: 16px;
     padding: 2px;
     float: right;
     left: 86px;
